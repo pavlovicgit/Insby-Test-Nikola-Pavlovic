@@ -91,42 +91,42 @@ export default function Footer() {
                 alt="Logo 1"
                 width={24}
                 height={19.5}
-                className="object-contain"
+                className="object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer"
               />
               <Image
                 src="/vector-linkedin.png"
                 alt="Logo 2"
                 width={24}
                 height={19.5}
-                className="object-contain"
+                className="object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer"
               />
               <Image
                 src="/vector-facebook.png"
                 alt="Logo 3"
                 width={24}
                 height={19.5}
-                className="object-contain"
+                className="object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer"
               />
               <Image
                 src="/vector-github.png"
                 alt="Logo 4"
                 width={24}
                 height={19.5}
-                className="object-contain"
+                className="object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer"
               />
               <Image
                 src="/two-fingers.png"
                 alt="Logo 5"
                 width={24}
                 height={19.5}
-                className="object-contain"
+                className="object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer"
               />
               <Image
                 src="/vector-dribbble.png"
                 alt="Logo 6"
                 width={24}
                 height={19.5}
-                className="object-contain"
+                className="object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer"
               />
             </div>
           </div>

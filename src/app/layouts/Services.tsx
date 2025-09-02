@@ -76,13 +76,13 @@ export default function Services() {
                 />
                   <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#1018288A] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                    <div className="text-center">
-                     <h3 className="text-white text-[15px] md:text-[50px] font-semibold mb-4 group-hover:-translate-y-4 transition-transform duration-300">
+                     <h3 className="text-white text-[15px] md:text-[30px] lg:text-[50px] font-semibold group-hover:-translate-y-4 transition-transform duration-300 px-4">
                        {service.title}
                      </h3>
-                     <p className="text-white text-[15px] md:text-[18px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mb-6 max-w-[300px]">
+                     <p className="text-white text-[15px] md:text-[16px] lg:text-[18px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mb-2 lg:mb-6 max-w-[300px] px-4">
                        {service.description}
                      </p>
-                     <button className="bg-gradient-to-r from-[#101828] to-[#233250] hover:bg-gradient-to-l from-[#101828] to-[#233250] text-white px-6 py-3 rounded-lg font-medium text-[16px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in delay-200">
+                     <button className="bg-gradient-to-r from-[#101828] to-[#233250] hover:bg-gradient-to-l from-[#101828] to-[#233250] text-white px-4 lg:px-6 py-3 rounded-lg font-medium text-[16px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in delay-200">
                        Learn More
                      </button>
                    </div>

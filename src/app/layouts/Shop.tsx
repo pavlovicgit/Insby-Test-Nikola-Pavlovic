@@ -115,11 +115,11 @@ export default function Shop() {
                     className="object-cover w-full h-[450px]"
                   />
                   <div className="absolute inset-0 bg-[#1018288A] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col">
-                    <div className="absolute top-4 left-4 bg-white px-2 py-1 rounded">
+                    <div className="absolute top-4 left-4 px-2 py-1 rounded">
                       <p className="text-xl font-bold">₦{product.price.toLocaleString()}</p>
                     </div>
 
-                    <div className="flex-1 flex flex-col items-center justify-center text-center">
+                    <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
                       <h3 className="text-lg text-[34px] font-semibold text-white">{product.title}</h3>
                       <p className="text-white text-[18px]">{product.description}</p>
                     </div>
@@ -128,7 +128,7 @@ export default function Shop() {
                       <button className="w-[95px] text-center px-4 py-2 bg-gradient-to-r from-[#101828] to-[#233250] hover:bg-gradient-to-l from-[#101828] to-[#233250] rounded text-white transition-all duration-300 ease-in">
                            + 1 -
                        </button>
-                       <button className="w-[95px] text-center px-4 py-2 bg-gradient-to-r from-[#101828] to-[#233250] hover:bg-gradient-to-l from-[#101828] to-[#233250] rounded text-white transition-all duration-300 ease-in">
+                       <button className="w-[120px] text-center px-4 py-2 bg-gradient-to-r from-[#101828] to-[#233250] hover:bg-gradient-to-l from-[#101828] to-[#233250] rounded text-white transition-all duration-300 ease-in">
                            Add to Cart
                        </button>
                     </div>
@@ -172,7 +172,7 @@ export default function Shop() {
                     <div className="absolute top-4 left-4 px-2 py-1 rounded">
                       <p className="text-xl font-bold">₦{product.price.toLocaleString()}</p>
                     </div>
-                    <div className="flex-1 flex flex-col items-center justify-center text-center">
+                    <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
                       <h3 className="text-lg text-[34px] font-semibold text-white">{product.title}</h3>
                       <p className="text-white text-[18px]">{product.description}</p>
                     </div>
@@ -201,7 +201,7 @@ export default function Shop() {
                     <div className="absolute top-4 left-4 px-2 py-1 rounded">
                       <p className="text-xl font-bold">₦{product.price.toLocaleString()}</p>
                     </div>
-                    <div className="flex-1 flex flex-col items-center justify-center text-center">
+                    <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
                       <h3 className="text-lg text-[34px] font-semibold text-white">{product.title}</h3>
                       <p className="text-white text-[18px]">{product.description}</p>
                     </div>
